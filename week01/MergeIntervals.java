@@ -29,8 +29,8 @@ class Solution {
         List<int[]> mergedIntervals = new ArrayList<>();
 
         for (Interval interval : intervalList) {
-            if (!mergedIntervals.isEmpty() && interval.start <= mergedIntervals.get(mergedIntervals.size()-1)[1]) {
-                mergedIntervals.get(mergedIntervals.size()-1)[1] = Math.max(mergedIntervals.get(mergedIntervals.size()-1)[1], interval.end);
+            if (!mergedIntervals.isEmpty() && interval.start <= mergedIntervals.get(mergedIntervals.size() - 1)[1]) {
+                mergedIntervals.get(mergedIntervals.size() - 1)[1] = Math.max(mergedIntervals.get(mergedIntervals.size() - 1)[1], interval.end);
             } else {
                 mergedIntervals.add(new int[]{interval.start, interval.end});
             }
