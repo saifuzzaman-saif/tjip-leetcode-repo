@@ -1,7 +1,7 @@
 class Solution {
 
     // TC = O(n^2) ; where n is the size of nums array
-    // MC = O(1)
+    // MC = O(Log(n)) as sort uses internal stack.
 
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> triplets = new ArrayList<>();
