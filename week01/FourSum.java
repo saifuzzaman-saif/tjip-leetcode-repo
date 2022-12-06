@@ -1,7 +1,7 @@
 class Solution {
 
     // TC = O(n^3) ; where n is the size of nums array.
-    // MC = O(1);
+    // MC = O(log(n));
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n = nums.length;
