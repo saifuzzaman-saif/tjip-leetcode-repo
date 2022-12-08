@@ -1,7 +1,7 @@
 class Solution {
 
     // TC = O(n) ; where n is the size of nums array.
-    // MC = O(1)
+    // MC = O(n)
 
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
