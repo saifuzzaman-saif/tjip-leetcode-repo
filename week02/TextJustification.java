@@ -1,5 +1,8 @@
 class Solution {
 
+    // TC = O(N) ; Where N is the total number characters in words.
+    // MC = O(N)
+
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> lines = new ArrayList<>();
 
