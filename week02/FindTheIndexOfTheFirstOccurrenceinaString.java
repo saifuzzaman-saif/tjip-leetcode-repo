@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(|haystack| + |needle|) ; |haystack| is the length of haystack.
+// MC = O(|needle|)
+// problem link : https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 
-    // TC = O(|haystack| + |needle|) ; |haystack| is the length of haystack.
-    // MC = O(|needle|)
+class Solution {
 
     int[] pi;
 

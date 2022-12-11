@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(n) ; where n is the length of the string.
+// MC = O(1)
+// problem link : https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-    // TC = O(n) ; where n is the length of the string.
-    // MC = O(1)
+class Solution {
 
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();

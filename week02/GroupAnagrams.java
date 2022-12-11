@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(NK) ; Where N is the number of strings & K is the length of each string;
+// MC = O(N)
+// problem link : https://leetcode.com/problems/group-anagrams/
 
-    // TC = O(NK) ; Where N is the number of strings & K is the length of each string;
-    // MC = O(N)
+class Solution {
 
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<Integer, List<String>>anagrams = new HashMap<>();

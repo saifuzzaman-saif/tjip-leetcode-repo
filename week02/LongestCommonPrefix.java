@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(N) ; where N is the total number of characters in all strings.
+// MC = (1)
+// problem link : https://leetcode.com/problems/longest-common-prefix/
 
-    // TC = O(N) ; where N is the total number of characters in all strings.
-    // MC = (1)
+class Solution {
 
     public String longestCommonPrefix(String[] strs) {
         for (int i = 0; i < strs[0].length(); i++) {

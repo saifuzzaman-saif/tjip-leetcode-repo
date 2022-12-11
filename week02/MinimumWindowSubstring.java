@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(|s| + |t|) ; where |s| is the length of string s.
+// MC = O(1)
+// problem link : https://leetcode.com/problems/minimum-window-substring/
 
-    // TC = O(|s| + |t|) ; where |s| is the length of string s.
-    // MC = O(1)
+class Solution {
 
     public String minWindow(String s, String t) {
         int[] freqS = new int[256];

@@ -1,3 +1,7 @@
+// TC = O(N) ; where N is length of the final output string.
+// MC = O(|s|)
+// problem link : https://leetcode.com/problems/decode-string/
+
 class Pair {
     int first;
     StringBuffer second;
@@ -9,9 +13,6 @@ class Pair {
 }
 
 class Solution {
-
-    // TC = O(N) ; where N is length of the final output string.
-    // MC = O(|s|)
 
     public String decodeString(String s) {
         Stack<Pair> stk = new Stack<>();

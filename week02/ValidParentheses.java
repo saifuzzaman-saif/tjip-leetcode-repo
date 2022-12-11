@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(n)
+// MC = O(n)
+// problem link : https://leetcode.com/problems/valid-parentheses/
 
-    // TC = O(n)
-    // MC = O(n)
+class Solution {
 
     public boolean isValid(String s) {
         Stack<Character> stk = new Stack<>();

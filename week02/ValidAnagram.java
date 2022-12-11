@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(n) ; Where n is max(|s|, |t|);
+// MC = O(1)
+// problem link : https://leetcode.com/problems/valid-anagram/
 
-    // TC = O(n) ; Where n is max(|s|, |t|);
-    // MC = O(1)
+class Solution {
     
     public boolean isAnagram(String s, String t) {
         return getHash(s) == getHash(t);

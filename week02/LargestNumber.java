@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(n Log(n))
+// MC = O(1)
+// problem link : https://leetcode.com/problems/largest-number/
 
-    // TC = O(n Log(n))
-    // MC = O(1)
+class Solution {
 
     public String largestNumber(int[] nums) {
         List<String>numStrings = new ArrayList<>();

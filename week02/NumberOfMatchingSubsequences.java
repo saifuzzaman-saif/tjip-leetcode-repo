@@ -1,8 +1,9 @@
-class Solution {
+// TC = O((M + N) * Log(M)) ; Where M is the length of string s and N is the total 
+//                            number of characters in words.
+// MC = O(M)
+// problem link : https://leetcode.com/problems/number-of-matching-subsequences/
 
-    // TC = O((M + N) * Log(M)) ; Where M is the length of string s and N is the total 
-    //                            number of characters in words.
-    // MC = O(M)
+class Solution {
 
     List<List<Integer>>pos;
 

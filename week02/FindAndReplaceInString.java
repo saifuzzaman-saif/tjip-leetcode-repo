@@ -1,6 +1,6 @@
 // TC = O(n^2)
 // MC O(n)
-// problem link : https://leetcode.com/problems/find-and-replace-in-string/description/
+// problem link : https://leetcode.com/problems/find-and-replace-in-string/
 
 class Solution {
 

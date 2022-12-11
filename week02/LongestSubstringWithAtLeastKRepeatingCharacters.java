@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(n) ;  Where n is the length of string s.
+// MC = O(1)
+// problem link : https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 
-    // TC = O(n) ;  Where n is the length of string s.
-    // MC = O(1)
+class Solution {
 
     public int longestSubstring(String s, int k) {
         int maxLength = 0;

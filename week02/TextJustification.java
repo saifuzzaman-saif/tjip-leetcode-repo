@@ -1,7 +1,8 @@
-class Solution {
+// TC = O(N) ; Where N is the total number characters in words.
+// MC = O(N)
+// problem link : https://leetcode.com/problems/text-justification/
 
-    // TC = O(N) ; Where N is the total number characters in words.
-    // MC = O(N)
+class Solution {
 
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> lines = new ArrayList<>();
