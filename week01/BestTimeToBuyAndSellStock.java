@@ -3,10 +3,10 @@ class Solution {
     // TC = O(n) : where n is the size of Prices array.
     // MC = O(1)
 
-    int inf = 1_000_000_000;
+    private static final int INF = 1_000_000_000;
 
     public int maxProfit(int[] prices) {
-        int leftMin = inf;
+        int leftMin = INF;
         int maxGain = 0;
 
         for (int price : prices) {
