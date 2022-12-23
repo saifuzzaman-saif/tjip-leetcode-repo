@@ -5,6 +5,8 @@ class Solution {
 
     Map<Character, Integer> romans;
     private static final int N = 7;
+    private static final char[] SYMBOLS = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
+    private static final int[] VALS = {1, 5, 10, 50, 100, 500, 1000};
 
     public int romanToInt(String s) {
         init();
@@ -29,12 +31,11 @@ class Solution {
     }
 
     private void init() {
-        char[] symbols = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
-        int[] vals = {1, 5, 10, 50, 100, 500, 1000};
         romans = new HashMap<>();
 
         for (int i = 0; i < N; i++) {
-            romans.put(symbols[i], vals[i]);
+            romans.put(SYMBOLS[i], VALS[i]);
         }
     }
 }
+
