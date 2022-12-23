@@ -24,7 +24,7 @@ class DetectSquares {
             int x2 = entry.getKey() / BASE;
             int y2 = entry.getKey() % BASE;
 
-            if (x1 != x2 && (Math.abs(x1 - x2) == Math.abs(y1 - y2))) {
+            if (x1 != x2 && y1 != y2 && (Math.abs(x1 - x2) == Math.abs(y1 - y2))) {
                 int x3 = x2, y3 = y1;
                 int x4 = x1, y4 = y2;
 
