@@ -12,7 +12,7 @@ class Solution {
 
     public boolean differByOne(String[] dict) {
         init();
-        Map<Long, Integer> map = new HashMap<>();
+        Map<Long, Integer> hashes = new HashMap<>();
 
         for (String s : dict) {
             calculatePrefixHash(s);
@@ -20,11 +20,11 @@ class Solution {
             for (int i = 1; i <= s.length(); i++) {
                 long hashVal = getHashAfterReplacingAt(i, s.length());
 
-                if (map.containsKey(hashVal)) {
+                if (hashes.containsKey(hashVal)) {
                     return true;
                 }
 
-                map.put(hashVal, 1);
+                hashes.put(hashVal, 1);
             }
         }
 
@@ -62,3 +62,4 @@ class Solution {
         }
     }
 }
+

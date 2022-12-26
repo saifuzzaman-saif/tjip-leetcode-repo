@@ -1,5 +1,6 @@
 // TC = O(1) for add & O(N) for count. Where N is the current size of the stream of points.
 // MC = O(N)
+// Problem link : https://leetcode.com/problems/detect-squares/
 
 class DetectSquares {
 

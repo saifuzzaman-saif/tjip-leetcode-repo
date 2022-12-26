@@ -1,5 +1,5 @@
 // TC = O(N*M); where N is length of strings array and M is the length of strings[i].
-// MC = O(n*M);
+// MC = O(N*M);
 // Problem link : https://leetcode.com/problems/group-shifted-strings/description/
 
 class Solution {
