@@ -23,7 +23,7 @@ class Node {
 
 // TC = O(N); Where N is the number of nodes;
 // MC = O(N);
-// Problem list : https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
+// Problem link : https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
 
 class Solution {
 
