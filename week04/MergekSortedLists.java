@@ -21,7 +21,7 @@ class Solution {
         return mergeKLists(lists, 0, lists.length - 1);
     }
 
-    public ListNode mergeKLists(ListNode[] lists, int l, int r) {
+    private ListNode mergeKLists(ListNode[] lists, int l, int r) {
         if (l > r) {
             return null;
         } else if (l == r) {
@@ -35,7 +35,7 @@ class Solution {
         return merge2Lists(left, right);
     }
 
-    ListNode merge2Lists(ListNode l1, ListNode l2) {
+    private ListNode merge2Lists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(DUMMY_VAL);
         ListNode curr = head;
 
