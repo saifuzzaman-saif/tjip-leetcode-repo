@@ -8,13 +8,13 @@ class Solution {
         return getHash(s) == getHash(t);
     }
 
-    private int getHash(String s) {
+    private long getHash(String s) {
         long hash = 1, offset = 997, mod = 1_000_000_007;
 
         for (int i = 0; i < s.length(); i++) {
             hash = (hash * (offset + s.charAt(i))) % mod;
         }
 
-        return (int) hash;
+        return hash;
     }
 }
