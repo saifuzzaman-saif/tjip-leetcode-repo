@@ -62,7 +62,7 @@ class Skiplist {
             curr = path.pop();
             curr.next = new Node(num, curr.next, down);
             down = curr;
-            goUp = (rand.nextInt() % 100) < 50;
+            goUp = rand.nextInt(100) < 50;
         }
 
         if (goUp) {
