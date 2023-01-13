@@ -1,5 +1,5 @@
 // TC = O(log(n)) for each operation where n is total number inserted data;
-// MC = O(n);
+// MC = O(n log(n));
 // Problem link : https://leetcode.com/problems/design-skiplist/description/
 
 class Skiplist {
