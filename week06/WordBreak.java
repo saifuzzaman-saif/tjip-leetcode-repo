@@ -9,7 +9,7 @@ class Solution {
 
     private static final int LMT = 26;
     private static final int mxWordLen = 20;
-    private TrieNode root = new TrieNode();
+    private TrieNode root;
     private Boolean[] dp;
     private String s;
 
@@ -24,6 +24,8 @@ class Solution {
     }
 
     public boolean wordBreak(String s, List<String> wordDict) {
+        root = new TrieNode();
+
         for (String word : wordDict) {
             insert(word);
         }
