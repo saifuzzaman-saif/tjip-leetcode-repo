@@ -18,12 +18,16 @@ class Solution {
             insert(root, word);
         }
 
-        Map<Character, List<TrieNode>>q = new HashMap<>();
+        return bfs(root, s);
+    }
+
+    private int bfs(TrieNode root, String s) {
+        Map<Character, List<TrieNode>> q = new HashMap<>();
         int cntOfSubseq = 0;
 
         for (int i = 0; i < LMT; i++) {
             if (root.next[i] != null) {
-                q.put((char) (i + 'a'), Stream.of(root.next[i]).collect(Collectors.toList()));
+                q.put((char) (i + 'a'), new ArrayList<>(Arrays.asList(root.next[i])));
             }
         }
 
@@ -43,7 +47,7 @@ class Solution {
                         continue;
                     }
 
-                    List<TrieNode>nexts = q.getOrDefault((char) (i + 'a'), new ArrayList<TrieNode>());
+                    List<TrieNode> nexts = q.getOrDefault((char) (i + 'a'), new ArrayList<TrieNode>());
                     nexts.add(curr.next[i]);
                     q.put((char) (i + 'a'), nexts);
                 }
