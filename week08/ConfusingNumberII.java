@@ -1,5 +1,5 @@
 /**
- * TC = O(5 ^ log10(n)) ; where n is the given number.
+ * TC = O(5 ^ log10(n) * log10(n)) ; where n is the given number.
  * MC = O(log10(n)) required for recursion.
  * Problem link : https://leetcode.com/problems/confusing-number-ii/description/
  */
