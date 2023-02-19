@@ -32,7 +32,7 @@ class Solution {
             isPrime[i] = false;
         }
 
-        for (int i = 2; i * i < n; i++) {
+        for (int i = 3; i * i < n; i += 2) {
             if (isPrime[i]) {
                 for (int j = i*i; j < n; j += 2 * i) {
                     isPrime[j] = false;
