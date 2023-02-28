@@ -1,5 +1,5 @@
- /**
- * TC = O(N) ; Where N is number of nodes.
+/**
+ * TC = O(N log(N)) ; Where N is number of nodes.
  * MC = O(N) 
  * Problem link : https://leetcode.com/problems/binary-tree-vertical-order-traversal/
  */
