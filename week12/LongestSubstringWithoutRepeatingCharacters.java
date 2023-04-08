@@ -1,5 +1,5 @@
 /**
-* TC = O(n); wheren is the length of string s.
+* TC = O(n); where n is the length of string s.
 * MC = O(1);
 * Problem link : https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 */
